@@ -1,0 +1,11 @@
+{
+  "name": "Values Map Ontology Endpoint",
+  "version": 1.0.0",
+  ...
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "comunica/actor-init-sparql": "^1.22.3"
+  }
+}
