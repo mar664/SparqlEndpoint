@@ -5,7 +5,7 @@
     "node": "14.x"
   },
   "dependencies": {
-    "comunica/actor-init-sparql": "^1.22.3"
+    "@comunica/actor-init-sparql": "^1.22.3"
   },
   "scripts": {
     "start" : "comunica-sparql-http https://raw.githubusercontent.com/mar664/SparqlEndpoint/main/Values%20Map%20Ontology.owl"
