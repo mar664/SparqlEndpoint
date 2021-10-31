@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
+<!-- Matthew Ruse 3472115 -->
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/matth/ontologies/2021/9/values_map_ontology"
+     xml:base="http://www.semanticweb.org/matth/ontologies/2021/9/values_map_ontology__"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/matth/ontologies/2021/9/values_map_ontology">
-    <Prefix name="" IRI="http://www.semanticweb.org/matth/ontologies/2021/9/values_map_ontology"/>
+     ontologyIRI="http://www.semanticweb.org/matth/ontologies/2021/9/values_map_ontology__">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -484,6 +484,15 @@
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ffa16453_e26e_4f8d_a840_e2d2a5797a21"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_022a4d51_7a8d_47f6_aacc_d379494fb8c4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_77439ddf_39cd_466b_aafd_ecb2f443a332"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLObjectProperty_32eaff03_2803_49e9_8ae7_6b8a5e8f49db"/>
     </Declaration>
     <Declaration>
@@ -506,15 +515,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLObjectProperty_44bdb5e8_7e83_49f3_97e2_9f0743c4a63f"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_30c22d01_b832_4bd8_935a_651db314dfa0"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLDataProperty_32b3cab9_bfa4_497e_be86_8fc4ccc7ce82"/>
@@ -955,6 +955,12 @@
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_fe25a236_171a_41f3_a3c8_0f747ddb6323"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
     </Declaration>
     <EquivalentClasses>
@@ -1150,18 +1156,6 @@
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_50206f26_f1e2_4478_98dd_316e1d9b0e0b"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLObjectProperty_c52be0f6_315e_404f_b661_b119429532ea"/>
-            <ObjectUnionOf>
-                <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_42e8ee3c_107f_45e3_abbc_810630ca37df"/>
-                <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c6206f38_8cf5_4d49_8798_362eccd55d4b"/>
-                <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_e3c62284_5418_4830_8e07_9cc04c4d01a3"/>
-                <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_e9d52a26_d9bb_4aa3_b308_369d767a66d6"/>
-            </ObjectUnionOf>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_57bfd39a_fc1f_4af3_8e3e_1d8e25fc7a2b"/>
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
     </SubClassOf>
@@ -1268,7 +1262,7 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
         <ObjectHasValue>
-            <ObjectProperty IRI="#OWLObjectProperty_30c22d01_b832_4bd8_935a_651db314dfa0"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_77439ddf_39cd_466b_aafd_ecb2f443a332"/>
             <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_959d9ad5_6657_45fb_941a_bea74a78a78b"/>
         </ObjectHasValue>
     </SubClassOf>
@@ -1758,179 +1752,184 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/principle"/>
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_eb7832ce_7c99_425a_a05b_fbcf13521675"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/principle"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_542d5371_de82_4b17_aebc_887152dff86c"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_faa7f817_a815_4f68_9c2e_8c76325e2d8c"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_0096de86_2379_4ff8_aa8a_aba5b14e0da1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c8b23800_5f16_4994_8f2a_bc85e1798faa"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_02451d19_318e_48be_aef7_aca3a616d766"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_57bfd39a_fc1f_4af3_8e3e_1d8e25fc7a2b"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_044c0ca0_f45a_459c_b586_dd7cb3d1ff71"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c4c4c40c_b21f_4c68_a9b3_46598c1d3cbb"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_0b16cbe7_0f46_4be8_9e21_cfd202f22850"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_385f9191_3483_46c7_9378_a7dba88670e9"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_0ef2255a_04dc_45c5_8eb8_94a32a0ae3c9"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_373fa193_ce2d_43e4_af6f_7c8c9028e28f"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_21eb0695_33cf_45de_a97b_8a71d5f91737"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_e3c62284_5418_4830_8e07_9cc04c4d01a3"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_2264e570_f899_4408_a55e_894c260ff389"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_93f66951_47f6_49c3_9bb6_ec6b6561c74c"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_26d97a21_0fc7_4697_8454_46b67a7dd258"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_db854793_8c0d_4d14_93e1_5d26ea982bc7"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_32c6509f_10df_4f02_a0f8_3390ccb871af"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_0f209ed4_33f7_4eac_b7c2_55c1ded8a2e9"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_37dd6208_a94c_404b_ac2e_977acddc6f02"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d332e224_7e19_497a_a9ca_c72e4840fc9c"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_41dea5f4_9c33_4a76_b91a_62c50d99ac75"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_9576e63d_0a93_44e0_9f18_2a83bb29084c"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_49d4ab0e_276b_46d9_9311_e156d07b96c4"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_2a1bf804_0e51_4d5b_849a_711296c2f56a"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_72435ed2_3aea_48bc_a539_54bacaa2252c"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_42e8ee3c_107f_45e3_abbc_810630ca37df"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_73994349_d462_4e8f_a9de_415c790ea66e"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_8cec2713_765a_432c_9e2b_220447031e10"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_75076135_c5e8_4bec_94dc_60d1358aa658"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_5bf32afd_ccbf_4b7b_8ee6_8e36fe2ba77e"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_875491cd_4f66_4333_8b2e_48ed163b9e25"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_f8eb142a_5afc_4559_80d2_1ebf609c9719"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_8802d47a_ebac_466d_966f_1a42a2117794"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_5937682b_89c4_49b6_9c4b_a849757eb546"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_8825177b_c890_4e52_add3_36361b3aece9"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_e9d52a26_d9bb_4aa3_b308_369d767a66d6"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_8f23c7ee_23ff_4fab_a3ee_c97b944accf4"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_ab4eed6e_3fbc_4522_ba57_96ea9e971e3d"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_9b5da385_c3c6_4d86_9f6f_c35a89dd6a45"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_771fa126_8653_42b7_8ed6_c4653de4b82d"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_9c2a1885_fdae_4751_9172_cd3cc501b1c7"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_74ae014f_990b_4154_9ccc_8046adb41f46"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_a5544adf_fa88_4f02_aa65_abb186ad73ab"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_cf2e69ea_c5e0_46ce_b432_35ac85b51b89"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_a572c8a9_0d4b_4cc7_a07e_646445cfbe82"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_adf3cb4c_5005_47a2_a449_0b68f2cc8418"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_a87c6a41_86bd_48bb_b7ac_51d4472f75a6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_a2d6fcea_05da_4187_afa6_a8192ebad273"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_ab2a541e_1edf_4f16_a8ba_87db17128b0c"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_2baf65b3_8937_4572_8d09_d21273e9c51f"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_ac4921c6_2477_40e2_8267_d0edb48c998b"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_97069c0a_faed_4380_a52d_76b76947a957"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_ad019869_6f20_4a4e_91a4_9476f51394cb"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_fccd2411_97e7_4239_a4ee_f91fd1f98806"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_b4134ecf_d54e_4687_91f2_6962bd8a87ed"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_b21bbf27_b15d_4932_8e32_aa072cddbb34"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_b59c87ac_c057_492a_8e20_3b16c1cbef3d"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d69c216a_f7af_4bb9_b487_13ef855c6654"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_be95555c_bbb1_4ff9_9969_0cea1794d426"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_fce4d16d_6317_440d_b34e_518a381148ae"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_c53ccc70_85c2_4ec7_bb4d_82f5c264a065"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_5f108927_9e37_481e_ac8a_00b987862786"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_cd524ee5_0b85_410c_83ad_76823e7e3154"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_73bc3bf3_564f_4c89_8a14_4a9186e94c99"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_d3dd9635_7cc3_4d4e_9fb5_59f30a905b3f"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c6206f38_8cf5_4d49_8798_362eccd55d4b"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_da6ee4fc_9233_4f8b_ad23_432d681bb952"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c2c45167_f65d_4cd8_ad52_197b052428fc"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_e0410c45_9356_4a4a_8ef1_7e4f6d5e326d"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_f3998d47_7ea6_4f2e_b1b5_338183ded480"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_e2177176_aa96_42de_8b7a_71f0ededa7a3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_1f9fbdb2_35e2_42f4_af13_7603f2ba9fc6"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_e55972b2_7205_441b_906a_8d96270f958c"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_4d7efc12_2e3d_41fa_bfc4_160b1abf06ef"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_fc2301ed_bc9d_4214_8d9d_ad251b0e2deb"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_eb38cc7f_cdaa_421f_aa56_6801f650f546"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d7d30d33_bcfe_4180_a5cf_f94a20586c2e"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_ee16f236_e15e_43c4_8a90_136bdc825a3c"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_0ebceef6_ecf6_4428_a79f_c17c3d1c1c9d"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_ef65bf2e_46ed_4bdb_b0ec_093550fa4fff"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_50206f26_f1e2_4478_98dd_316e1d9b0e0b"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_f2a4839c_a083_440d_9a9e_6f91ea2aa1e2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_9d1c31af_df7e_4bf5_993b_56723c31232e"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_fd5cf981_f116_4559_897d_9cc9ee7a04e1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c71ac204_9047_4005_bf0f_2d620b4c162f"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_fd733f07_911b_44d1_9c0e_0cef14234772"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2338,26 +2337,6 @@
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_fe25a236_171a_41f3_a3c8_0f747ddb6323"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_0096de86_2379_4ff8_aa8a_aba5b14e0da1"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_2137242f_35b9_40d2_9110_22c73249e3db"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_0096de86_2379_4ff8_aa8a_aba5b14e0da1"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_2f9a58d0_8cb9_464f_954a_251aa0a3bdc0"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_0096de86_2379_4ff8_aa8a_aba5b14e0da1"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_a83c9fc3_4546_4056_b819_c8865544f53a"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_0096de86_2379_4ff8_aa8a_aba5b14e0da1"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_f3c63237_b076_46c0_ac3e_4049e31f3973"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLObjectProperty_87d7f132_1d2d_48d5_9fbf_550533a065dd"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_02451d19_318e_48be_aef7_aca3a616d766"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_72435ed2_3aea_48bc_a539_54bacaa2252c"/>
@@ -2413,57 +2392,57 @@
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_72435ed2_3aea_48bc_a539_54bacaa2252c"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_41dea5f4_9c33_4a76_b91a_62c50d99ac75"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_513fdc4d_db2e_46d4_aff8_083a96bd7e9d"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_41dea5f4_9c33_4a76_b91a_62c50d99ac75"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_a6cf0956_db4c_4778_b26a_11d60f38dbde"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_41dea5f4_9c33_4a76_b91a_62c50d99ac75"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_d32b03fc_c23b_416b_b0d7_d53789361831"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_41dea5f4_9c33_4a76_b91a_62c50d99ac75"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_fe25a236_171a_41f3_a3c8_0f747ddb6323"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_49d4ab0e_276b_46d9_9311_e156d07b96c4"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_2137242f_35b9_40d2_9110_22c73249e3db"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_49d4ab0e_276b_46d9_9311_e156d07b96c4"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_a0546602_ffea_4dbd_a4a3_4673735bf3b3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_49d4ab0e_276b_46d9_9311_e156d07b96c4"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_a83c9fc3_4546_4056_b819_c8865544f53a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_72435ed2_3aea_48bc_a539_54bacaa2252c"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_513fdc4d_db2e_46d4_aff8_083a96bd7e9d"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_72435ed2_3aea_48bc_a539_54bacaa2252c"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_a0546602_ffea_4dbd_a4a3_4673735bf3b3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_72435ed2_3aea_48bc_a539_54bacaa2252c"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_a6cf0956_db4c_4778_b26a_11d60f38dbde"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_72435ed2_3aea_48bc_a539_54bacaa2252c"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_d32b03fc_c23b_416b_b0d7_d53789361831"/>
     </ObjectPropertyAssertion>
@@ -2478,7 +2457,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_b4134ecf_d54e_4687_91f2_6962bd8a87ed"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_022a4d51_7a8d_47f6_aacc_d379494fb8c4"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_875491cd_4f66_4333_8b2e_48ed163b9e25"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_a0546602_ffea_4dbd_a4a3_4673735bf3b3"/>
     </ObjectPropertyAssertion>
@@ -2588,19 +2567,19 @@
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_0096de86_2379_4ff8_aa8a_aba5b14e0da1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_022a4d51_7a8d_47f6_aacc_d379494fb8c4"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_b4134ecf_d54e_4687_91f2_6962bd8a87ed"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_fe25a236_171a_41f3_a3c8_0f747ddb6323"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_b4134ecf_d54e_4687_91f2_6962bd8a87ed"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_513fdc4d_db2e_46d4_aff8_083a96bd7e9d"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_b4134ecf_d54e_4687_91f2_6962bd8a87ed"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_a83c9fc3_4546_4056_b819_c8865544f53a"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_b4134ecf_d54e_4687_91f2_6962bd8a87ed"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_fe25a236_171a_41f3_a3c8_0f747ddb6323"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLObjectProperty_48cee1fd_7f2b_444b_aca6_21198fd27ab5"/>
@@ -2748,7 +2727,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_fd733f07_911b_44d1_9c0e_0cef14234772"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_022a4d51_7a8d_47f6_aacc_d379494fb8c4"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_fd733f07_911b_44d1_9c0e_0cef14234772"/>
         <NamedIndividual IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLNamedIndividual_2f9a58d0_8cb9_464f_954a_251aa0a3bdc0"/>
     </ObjectPropertyAssertion>
@@ -3244,10 +3223,14 @@
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLObjectProperty_758b00fd_e434_400d_b2b2_581c0b4837d7"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_022a4d51_7a8d_47f6_aacc_d379494fb8c4"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_77439ddf_39cd_466b_aafd_ecb2f443a332"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLObjectProperty_41944fca_5e7d_4c43_aa39_6ffb2cc8cbdb"/>
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_288bea95_0b71_4458_a4d7_90a61887015d"/>
@@ -3272,18 +3255,14 @@
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLObjectProperty_44bdb5e8_7e83_49f3_97e2_9f0743c4a63f"/>
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/principle"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_30c22d01_b832_4bd8_935a_651db314dfa0"/>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d9bf9b07_ff53_411e_a7ef_1d9e1647988e"/>
-    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_022a4d51_7a8d_47f6_aacc_d379494fb8c4"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_85b522ec_ab5d_42b3_9241_2d62b0d93f72"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_77439ddf_39cd_466b_aafd_ecb2f443a332"/>
+        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b93b7410_ad5c_42d2_a866_18921fe1308a"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLObjectProperty_32eaff03_2803_49e9_8ae7_6b8a5e8f49db"/>
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_eb7832ce_7c99_425a_a05b_fbcf13521675"/>
@@ -3316,18 +3295,6 @@
         <ObjectProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLObjectProperty_44bdb5e8_7e83_49f3_97e2_9f0743c4a63f"/>
         <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_542d5371_de82_4b17_aebc_887152dff86c"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3"/>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_85b522ec_ab5d_42b3_9241_2d62b0d93f72"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_30c22d01_b832_4bd8_935a_651db314dfa0"/>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b93b7410_ad5c_42d2_a866_18921fe1308a"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14"/>
-        <Class IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_85b522ec_ab5d_42b3_9241_2d62b0d93f72"/>
-    </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLDataProperty_32b3cab9_bfa4_497e_be86_8fc4ccc7ce82"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
@@ -3341,6 +3308,21 @@
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_022a4d51_7a8d_47f6_aacc_d379494fb8c4</IRI>
+        <Literal xml:lang="en">hasImplicitLinkTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_2d2957cb_e773_4eb6_bb52_bee3b7925583</IRI>
+        <Literal xml:lang="en">hasExplicitLinkTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/10/values_map_ontology#OWLObjectProperty_77439ddf_39cd_466b_aafd_ecb2f443a332</IRI>
+        <Literal xml:lang="en">hasDirectValueLinkTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/principle</IRI>
         <Literal>Principles are rules or beliefs governing behaviour</Literal>
@@ -3352,18 +3334,38 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f</IRI>
+        <Literal xml:lang="en">description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_0ebceef6_ecf6_4428_a79f_c17c3d1c1c9d</IRI>
         <Literal xml:lang="en">Right to object</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_0ebceef6_ecf6_4428_a79f_c17c3d1c1c9d</IRI>
+        <Literal>ObjectDataSubjectRight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_0f209ed4_33f7_4eac_b7c2_55c1ded8a2e9</IRI>
         <Literal xml:lang="en">Provide copy of Personal Data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_0f209ed4_33f7_4eac_b7c2_55c1ded8a2e9</IRI>
+        <Literal>ProvideCopyRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_1f9fbdb2_35e2_42f4_af13_7603f2ba9fc6</IRI>
         <Literal xml:lang="en">Existence of Rights</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_1f9fbdb2_35e2_42f4_af13_7603f2ba9fc6</IRI>
+        <Literal>ExistenceOfRightsSubProvision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3376,24 +3378,44 @@
         <Literal xml:lang="en">Transparency</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_2baf65b3_8937_4572_8d09_d21273e9c51f</IRI>
         <Literal xml:lang="en">Object to processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_2baf65b3_8937_4572_8d09_d21273e9c51f</IRI>
+        <Literal>ObjectToProcessingRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_373fa193_ce2d_43e4_af6f_7c8c9028e28f</IRI>
         <Literal xml:lang="en">If and where Controller is processing data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_373fa193_ce2d_43e4_af6f_7c8c9028e28f</IRI>
+        <Literal>IfWhereControllerRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_385f9191_3483_46c7_9378_a7dba88670e9</IRI>
         <Literal xml:lang="en">Should be machine readable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_385f9191_3483_46c7_9378_a7dba88670e9</IRI>
+        <Literal>MachineReadibleRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_42e8ee3c_107f_45e3_abbc_810630ca37df</IRI>
         <Literal xml:lang="en">intelligible</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_42e8ee3c_107f_45e3_abbc_810630ca37df</IRI>
+        <Literal>IntelligibleRightsSubProvision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3401,19 +3423,34 @@
         <Literal xml:lang="en">RightSubProvision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_50206f26_f1e2_4478_98dd_316e1d9b0e0b</IRI>
         <Literal xml:lang="en">Right to transparency</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_50206f26_f1e2_4478_98dd_316e1d9b0e0b</IRI>
+        <Literal>TransparencyDataSubjectRight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_57bfd39a_fc1f_4af3_8e3e_1d8e25fc7a2b</IRI>
         <Literal xml:lang="en">Should be structured</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_57bfd39a_fc1f_4af3_8e3e_1d8e25fc7a2b</IRI>
+        <Literal>ShouldBeStructuredRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_5937682b_89c4_49b6_9c4b_a849757eb546</IRI>
         <Literal xml:lang="en">Right to restrict processing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_5937682b_89c4_49b6_9c4b_a849757eb546</IRI>
+        <Literal>RestrictProcessingDataSubjectRight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3421,34 +3458,64 @@
         <Literal xml:lang="en">Integrity and Confidentiality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_5f108927_9e37_481e_ac8a_00b987862786</IRI>
         <Literal xml:lang="en">Erase when consent was withdrawn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_5f108927_9e37_481e_ac8a_00b987862786</IRI>
+        <Literal>EraseConsentWithdrawnRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_73bc3bf3_564f_4c89_8a14_4a9186e94c99</IRI>
-        <Literal xml:lang="en">Automated processing with significant effects on data subject</Literal>
+        <Literal>automated processing with significant effects on data subject</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_73bc3bf3_564f_4c89_8a14_4a9186e94c99</IRI>
+        <Literal xml:lang="en">AutomatedProcessingRightSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_74ae014f_990b_4154_9ccc_8046adb41f46</IRI>
         <Literal xml:lang="en">Erase when data is no longer needed for original purpose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_74ae014f_990b_4154_9ccc_8046adb41f46</IRI>
+        <Literal>EraseDataNoLongerNeededRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_771fa126_8653_42b7_8ed6_c4653de4b82d</IRI>
         <Literal xml:lang="en">Storage Period</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_771fa126_8653_42b7_8ed6_c4653de4b82d</IRI>
+        <Literal>StoragePeriodRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_8cec2713_765a_432c_9e2b_220447031e10</IRI>
         <Literal xml:lang="en">Processing is unlawful</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_8cec2713_765a_432c_9e2b_220447031e10</IRI>
+        <Literal>ProcessingUnlawfulRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_93f66951_47f6_49c3_9bb6_ec6b6561c74c</IRI>
         <Literal xml:lang="en">Data no longer needed for original purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_93f66951_47f6_49c3_9bb6_ec6b6561c74c</IRI>
+        <Literal>DataNoLongerNeededRightsSubProvision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3456,49 +3523,94 @@
         <Literal xml:lang="en">Storage Limitation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_97069c0a_faed_4380_a52d_76b76947a957</IRI>
         <Literal xml:lang="en">Right to rectification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_97069c0a_faed_4380_a52d_76b76947a957</IRI>
+        <Literal>RetificationDataSubjectRight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_9d1c31af_df7e_4bf5_993b_56723c31232e</IRI>
         <Literal xml:lang="en">Right to erasure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_9d1c31af_df7e_4bf5_993b_56723c31232e</IRI>
+        <Literal>ErasureDataSubjectRight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_a2d6fcea_05da_4187_afa6_a8192ebad273</IRI>
         <Literal xml:lang="en">Right to basic Information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_a2d6fcea_05da_4187_afa6_a8192ebad273</IRI>
+        <Literal>BasicInformationDataSubjectRight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_ab4eed6e_3fbc_4522_ba57_96ea9e971e3d</IRI>
         <Literal xml:lang="en">Source of Data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_ab4eed6e_3fbc_4522_ba57_96ea9e971e3d</IRI>
+        <Literal>DataSourceRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_adf3cb4c_5005_47a2_a449_0b68f2cc8418</IRI>
         <Literal xml:lang="en">Information about Third Parties</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_adf3cb4c_5005_47a2_a449_0b68f2cc8418</IRI>
+        <Literal>InformationThirdPartiesRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_b21bbf27_b15d_4932_8e32_aa072cddbb34</IRI>
         <Literal xml:lang="en">Information about Processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_b21bbf27_b15d_4932_8e32_aa072cddbb34</IRI>
+        <Literal>InformationProcessingRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c2c45167_f65d_4cd8_ad52_197b052428fc</IRI>
         <Literal xml:lang="en">Object to direct marketing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c2c45167_f65d_4cd8_ad52_197b052428fc</IRI>
+        <Literal>ObjectDirectMarketingRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c4c4c40c_b21f_4c68_a9b3_46598c1d3cbb</IRI>
         <Literal xml:lang="en">Should support reuse</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c4c4c40c_b21f_4c68_a9b3_46598c1d3cbb</IRI>
+        <Literal>SupportReuseRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c6206f38_8cf5_4d49_8798_362eccd55d4b</IRI>
         <Literal xml:lang="en">transparent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c6206f38_8cf5_4d49_8798_362eccd55d4b</IRI>
+        <Literal>TransparentRightsSubProvision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3506,14 +3618,24 @@
         <Literal xml:lang="en">Purpose Limitation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c8b23800_5f16_4994_8f2a_bc85e1798faa</IRI>
         <Literal xml:lang="en">Should be commonly used format</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_c8b23800_5f16_4994_8f2a_bc85e1798faa</IRI>
+        <Literal>ShouldBeCommonFormatRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_cf2e69ea_c5e0_46ce_b432_35ac85b51b89</IRI>
         <Literal xml:lang="en">Right to data portability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_cf2e69ea_c5e0_46ce_b432_35ac85b51b89</IRI>
+        <Literal>DataPortabilityDataSubjectRight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3521,14 +3643,24 @@
         <Literal xml:lang="en">Fairness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d69c216a_f7af_4bb9_b487_13ef855c6654</IRI>
         <Literal xml:lang="en">No charges levied</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d69c216a_f7af_4bb9_b487_13ef855c6654</IRI>
+        <Literal>NoChargesRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d7d30d33_bcfe_4180_a5cf_f94a20586c2e</IRI>
         <Literal xml:lang="en">Rights over automated decisions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_d7d30d33_bcfe_4180_a5cf_f94a20586c2e</IRI>
+        <Literal>AutomatedDecisionsDataSubjectRight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3536,19 +3668,34 @@
         <Literal xml:lang="en">GDPRDataProtectionPrinciple</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_db854793_8c0d_4d14_93e1_5d26ea982bc7</IRI>
         <Literal xml:lang="en">Categories of data being processed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_db854793_8c0d_4d14_93e1_5d26ea982bc7</IRI>
+        <Literal>CategoriesDataRightSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_e3c62284_5418_4830_8e07_9cc04c4d01a3</IRI>
         <Literal xml:lang="en">easily accessible</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_e3c62284_5418_4830_8e07_9cc04c4d01a3</IRI>
+        <Literal>EasilyAccessibleRightsSubProvision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_e9d52a26_d9bb_4aa3_b308_369d767a66d6</IRI>
         <Literal xml:lang="en">concise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_e9d52a26_d9bb_4aa3_b308_369d767a66d6</IRI>
+        <Literal>ConciseRightsSubProvision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3561,9 +3708,14 @@
         <Literal xml:lang="en">Data Minimization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_f8eb142a_5afc_4559_80d2_1ebf609c9719</IRI>
         <Literal xml:lang="en">When accuracy is contested</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_f8eb142a_5afc_4559_80d2_1ebf609c9719</IRI>
+        <Literal>AccuracyContestedRightsSubProvision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3571,9 +3723,14 @@
         <Literal xml:lang="en">Accuracy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_fc2301ed_bc9d_4214_8d9d_ad251b0e2deb</IRI>
         <Literal xml:lang="en">Categories of recipients data is shared with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_fc2301ed_bc9d_4214_8d9d_ad251b0e2deb</IRI>
+        <Literal>CategoriesRecipientsDataRightsSubProvision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3581,9 +3738,14 @@
         <Literal xml:lang="en">Lawfulness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLAnnotationProperty_83647f4b_bec2_4b79_8dc8_47a2dcfcb39f"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_fce4d16d_6317_440d_b34e_518a381148ae</IRI>
         <Literal xml:lang="en">Right of access</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLClass_fce4d16d_6317_440d_b34e_518a381148ae</IRI>
+        <Literal>AccessDataSubjectRight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3670,6 +3832,11 @@
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_875491cd_4f66_4333_8b2e_48ed163b9e25</IRI>
         <Literal xml:lang="en">Integrity
 and Confidentiality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/gpdr#OWLNamedIndividual_875491cd_4f66_4333_8b2e_48ed163b9e25</IRI>
+        <Literal xml:lang="en">Integrity and Confidentiality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3845,8 +4012,18 @@ on data subject</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4</IRI>
+        <Literal xml:lang="en">description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031</IRI>
         <Literal xml:lang="en">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_003c11f2_700b_4eec_b7c0_b7d0198669eb</IRI>
+        <Literal>infuential</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3854,9 +4031,19 @@ on data subject</Literal>
         <Literal xml:lang="en">InfluentialValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_01ddd5e3_8dd4_4971_94e0_52a697924900</IRI>
+        <Literal>working for others welfare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_01ddd5e3_8dd4_4971_94e0_52a697924900</IRI>
         <Literal xml:lang="en">WorkingForOthersWelfareValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_0243e5ca_0890_461d_b0a4_d06243996861</IRI>
+        <Literal>humble</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3864,14 +4051,29 @@ on data subject</Literal>
         <Literal xml:lang="en">HumbleValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_034bb4dd_215b_45e1_b537_bf7d8ea9fe17</IRI>
+        <Literal>national security</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_034bb4dd_215b_45e1_b537_bf7d8ea9fe17</IRI>
         <Literal xml:lang="en">NationalSecurityValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_08c1bbf3_1891_4100_9867_58cc4914ace0</IRI>
+        <Literal>self-direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_08c1bbf3_1891_4100_9867_58cc4914ace0</IRI>
         <Literal xml:lang="en">Self-directionSchwartzHumanValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_093b1048_794f_46fb_bb12_bb809c9c7ea5</IRI>
+        <Literal>power-dominance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -3884,9 +4086,19 @@ on data subject</Literal>
         <Literal xml:lang="en">DominancePowerSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_0e6fde7d_2189_42a1_9edf_25620ed04553</IRI>
+        <Literal>social justice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_0e6fde7d_2189_42a1_9edf_25620ed04553</IRI>
         <Literal xml:lang="en">SocialJusticeValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_14f0eea0_8664_465e_b925_037e06690a79</IRI>
+        <Literal>successful</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3894,9 +4106,19 @@ on data subject</Literal>
         <Literal xml:lang="en">SuccessfulValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_164ee8de_ba24_461f_86ba_405fb98839b2</IRI>
+        <Literal>social power</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_164ee8de_ba24_461f_86ba_405fb98839b2</IRI>
         <Literal xml:lang="en">SocialPowerValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_1878458a_17c1_4060_a5c3_b58652f95337</IRI>
+        <Literal>forgiving</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3904,14 +4126,29 @@ on data subject</Literal>
         <Literal xml:lang="en">ForgivingValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_1c938cfe_262b_4954_8ad9_4f413d6735c7</IRI>
+        <Literal>respect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_1c938cfe_262b_4954_8ad9_4f413d6735c7</IRI>
         <Literal xml:lang="en">RespectValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_1d7fd5c5_077d_43e5_a2bc_024e8b7a8cd6</IRI>
+        <Literal>wealth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_1d7fd5c5_077d_43e5_a2bc_024e8b7a8cd6</IRI>
         <Literal xml:lang="en">WealthValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_2221fa94_d421_488e_848e_727077f5abea</IRI>
+        <Literal>security-societal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -3924,9 +4161,19 @@ on data subject</Literal>
         <Literal xml:lang="en">SocietalSecuritySchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_23abbbce_4049_4365_b665_2d1432adf3a9</IRI>
+        <Literal>stimulating experience</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_23abbbce_4049_4365_b665_2d1432adf3a9</IRI>
         <Literal xml:lang="en">StimulatingExperienceValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_24144591_ce24_4623_a80d_b4d9be18a2cf</IRI>
+        <Literal>benevolence-caring</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -3939,9 +4186,19 @@ on data subject</Literal>
         <Literal xml:lang="en">CaringBenevolenceSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_265069c9_2113_4b70_b207_e47338d92321</IRI>
+        <Literal>honest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_265069c9_2113_4b70_b207_e47338d92321</IRI>
         <Literal xml:lang="en">HonestValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_2c5ffcb0_696e_4244_9a65_528349951cdf</IRI>
+        <Literal>self-reliant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3949,9 +4206,19 @@ on data subject</Literal>
         <Literal xml:lang="en">Self-reliantValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_2ed2650c_bb96_44ad_afd0_cb990cf682b9</IRI>
+        <Literal>power</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_2ed2650c_bb96_44ad_afd0_cb990cf682b9</IRI>
         <Literal xml:lang="en">PowerSchwartzHumanValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_2eefcca6_4a75_4210_9ba0_aca3945e2f9f</IRI>
+        <Literal>feeling others care about me</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3959,14 +4226,29 @@ on data subject</Literal>
         <Literal xml:lang="en">FeelingOthersCareAboutMeValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3324251b_9bad_4639_8a08_7447142272c5</IRI>
+        <Literal>preserve customs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3324251b_9bad_4639_8a08_7447142272c5</IRI>
         <Literal xml:lang="en">PreserveCustomsValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3336192d_a93b_41b0_8137_f273c8501943</IRI>
+        <Literal>choosing own goals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3336192d_a93b_41b0_8137_f273c8501943</IRI>
         <Literal xml:lang="en">ChoosingOwnGoalsValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_33908c76_f692_45d9_83df_aae9e9b8bd0a</IRI>
+        <Literal>universalism-concern</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -3979,9 +4261,19 @@ on data subject</Literal>
         <Literal xml:lang="en">ConcernUniversalismSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_339ace37_5d23_43a3_9285_646a0de1aaff</IRI>
+        <Literal>preserving public image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_339ace37_5d23_43a3_9285_646a0de1aaff</IRI>
         <Literal xml:lang="en">PreservingPublicImageValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_34864240_1b5b_4077_ae14_f4db09b06c7e</IRI>
+        <Literal>universalism-tolerance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -3995,9 +4287,19 @@ from oneself</Literal>
         <Literal xml:lang="en">ToleranceUniversalismSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_357db81a_29fb_478f_83d1_d0053871455c</IRI>
+        <Literal>material possessions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_357db81a_29fb_478f_83d1_d0053871455c</IRI>
         <Literal xml:lang="en">MaterialPossessionsValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_37eaccd6_5fc2_424c_a84e_df38faca69b4</IRI>
+        <Literal>stimulation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4010,9 +4312,19 @@ from oneself</Literal>
         <Literal xml:lang="en">StimulationSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3a0ffdeb_48b3_454a_a3c4_64c270c12158</IRI>
+        <Literal>neat, tidy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3a0ffdeb_48b3_454a_a3c4_64c270c12158</IRI>
         <Literal xml:lang="en">NeatTidyValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3e1faa32_f930_4f3c_ac07_a24251a7e2d3</IRI>
+        <Literal>security</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4020,9 +4332,19 @@ from oneself</Literal>
         <Literal xml:lang="en">SecuritySchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3eb720f7_6699_4447_8a63_0157a5603bbb</IRI>
+        <Literal>competent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3eb720f7_6699_4447_8a63_0157a5603bbb</IRI>
         <Literal xml:lang="en">CompetentValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_3f1fe185_5969_4ee9_b832_3a60c9a405cf</IRI>
+        <Literal>resist temptation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4030,9 +4352,19 @@ from oneself</Literal>
         <Literal xml:lang="en">ResistTemptationValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_420d86b6_d57f_476f_b547_1831a239e357</IRI>
+        <Literal>maintaining face</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_420d86b6_d57f_476f_b547_1831a239e357</IRI>
         <Literal xml:lang="en">MaintainingFaceValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_47dbc5e5_9d9d_41e6_811a_b55e97762f57</IRI>
+        <Literal>aspiring</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4040,9 +4372,19 @@ from oneself</Literal>
         <Literal xml:lang="en">AspiringValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_49e582a1_1e47_4954_b210_daf18b79127b</IRI>
+        <Literal>social order</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_49e582a1_1e47_4954_b210_daf18b79127b</IRI>
         <Literal xml:lang="en">SocialOrderValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_4c354ac6_5fab_491c_a984_3cc77c34abae</IRI>
+        <Literal>social recognition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4050,14 +4392,29 @@ from oneself</Literal>
         <Literal xml:lang="en">SocialRecognitionValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_514cb28f_9d4e_4fda_97ad_f21e29aa4515</IRI>
+        <Literal>pleasure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_514cb28f_9d4e_4fda_97ad_f21e29aa4515</IRI>
         <Literal xml:lang="en">PleasureValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_52261fc8_4a4e_4ec9_8a4b_efbe10d33d97</IRI>
+        <Literal>interested</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_52261fc8_4a4e_4ec9_8a4b_efbe10d33d97</IRI>
         <Literal xml:lang="en">InterestedValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_542d5371_de82_4b17_aebc_887152dff86c</IRI>
+        <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4070,9 +4427,19 @@ from oneself</Literal>
         <Literal xml:lang="en">ValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_58b7da79_8abf_410b_823c_55c7f75313fc</IRI>
+        <Literal>safety for loved ones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_58b7da79_8abf_410b_823c_55c7f75313fc</IRI>
         <Literal xml:lang="en">SafetyForLovedOnesValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_5d3c4ca9_cdd4_4fa1_9e22_21e8c34ac8d8</IRI>
+        <Literal>a varied life</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4080,9 +4447,19 @@ from oneself</Literal>
         <Literal xml:lang="en">AVariedLifeValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_61d5dec0_62e8_4813_b530_9aadc353f883</IRI>
+        <Literal>broadminded</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_61d5dec0_62e8_4813_b530_9aadc353f883</IRI>
         <Literal xml:lang="en">BroadmindedValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_61daac0e_0b72_4cf3_945e_321184ae3511</IRI>
+        <Literal>nation safe from enemies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4090,9 +4467,19 @@ from oneself</Literal>
         <Literal xml:lang="en">NationSafeFromEnemiesValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_671eb8c5_8085_4d32_a5fb_5c29d7f7df20</IRI>
+        <Literal>sense of belonging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_671eb8c5_8085_4d32_a5fb_5c29d7f7df20</IRI>
         <Literal xml:lang="en">SenseOfBelongingValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_693b6b32_70eb_4ed6_8b07_c73e36a48b96</IRI>
+        <Literal>security-personal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4103,6 +4490,11 @@ from oneself</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_693b6b32_70eb_4ed6_8b07_c73e36a48b96</IRI>
         <Literal xml:lang="en">PersonalSecuritySchwartzHumanValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_6b394342_209b_4c69_ae94_aca1288d69ac</IRI>
+        <Literal>tradition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4116,9 +4508,19 @@ traditions</Literal>
         <Literal xml:lang="en">TraditionSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_6ba4bb65_7452_4fd5_8155_f6e09127b500</IRI>
+        <Literal>loyal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_6ba4bb65_7452_4fd5_8155_f6e09127b500</IRI>
         <Literal xml:lang="en">LoyalValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_6c8bad74_fc92_4d38_ae0b_8cf25aabbc31</IRI>
+        <Literal>own purposes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4126,9 +4528,19 @@ traditions</Literal>
         <Literal xml:lang="en">OwnPurposesValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_6d62e9df_098d_4d39_94f6_7b07f460c47c</IRI>
+        <Literal>benevolence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_6d62e9df_098d_4d39_94f6_7b07f460c47c</IRI>
         <Literal xml:lang="en">BenevolenceSchwartzHumanValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_6e42bf2f_40cd_4844_ba68_830c70b647a7</IRI>
+        <Literal>self-direction-thought</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4141,6 +4553,11 @@ traditions</Literal>
         <Literal xml:lang="en">ThoughtSelf-directionSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_73595ca7_3581_48f2_96bb_ebc29ff04cd3</IRI>
+        <Literal>face</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_73595ca7_3581_48f2_96bb_ebc29ff04cd3</IRI>
         <Literal>Maintaining ones public image and avoiding humiliation</Literal>
@@ -4149,6 +4566,11 @@ traditions</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_73595ca7_3581_48f2_96bb_ebc29ff04cd3</IRI>
         <Literal xml:lang="en">FaceSchwartzHumanValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_7913f4db_922b_4caf_8735_f52271ca3327</IRI>
+        <Literal>self-direction-action</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4161,6 +4583,11 @@ traditions</Literal>
         <Literal xml:lang="en">ActionSelf-directionSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_7a386bb1_be2e_4e40_9e80_d51f602dc9f1</IRI>
+        <Literal>conformity-interpersonal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_7a386bb1_be2e_4e40_9e80_d51f602dc9f1</IRI>
         <Literal>Avoidance of upsetting or harming other people</Literal>
@@ -4171,9 +4598,19 @@ traditions</Literal>
         <Literal xml:lang="en">InterpersonalConfirmitySchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_7d1f84b1_5ff4_4aaa_8e18_ee1d3cfe3b2b</IRI>
+        <Literal>right to command</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_7d1f84b1_5ff4_4aaa_8e18_ee1d3cfe3b2b</IRI>
         <Literal xml:lang="en">RightToCommandValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_7ded816b_4cee_4ad8_acb0_760e1cea9582</IRI>
+        <Literal>faithful to friends</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4186,9 +4623,19 @@ traditions</Literal>
         <Literal xml:lang="en">SchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8aed2e43_3911_4b8f_b380_d7c9747d26a4</IRI>
+        <Literal>daring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8aed2e43_3911_4b8f_b380_d7c9747d26a4</IRI>
         <Literal xml:lang="en">DaringValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8b441712_9325_4a36_b7ef_e2f0ece0559c</IRI>
+        <Literal>politeness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4196,9 +4643,19 @@ traditions</Literal>
         <Literal xml:lang="en">PolitenessValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8d63b628_f7ea_4338_baa1_b1d50a1f1b4f</IRI>
+        <Literal>creativity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8d63b628_f7ea_4338_baa1_b1d50a1f1b4f</IRI>
         <Literal xml:lang="en">CreativityValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8d8c9ff3_1570_4634_8fe7_95489b14559c</IRI>
+        <Literal>imagination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4206,14 +4663,29 @@ traditions</Literal>
         <Literal xml:lang="en">ImaginationValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8e30a554_b104_4ce1_a225_f93c44f574de</IRI>
+        <Literal>having an impact on people and events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8e30a554_b104_4ce1_a225_f93c44f574de</IRI>
         <Literal xml:lang="en">HavingAnImpactOnPeopleAndEventsValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8eaba47a_fabf_42f0_85f9_50ffc0d16dfa</IRI>
+        <Literal>hold religious faith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8eaba47a_fabf_42f0_85f9_50ffc0d16dfa</IRI>
         <Literal xml:lang="en">HoldReligiousFaithValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_8f14b108_bc0b_458a_9a56_7a7522942d73</IRI>
+        <Literal>conformity-rules</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4226,9 +4698,19 @@ traditions</Literal>
         <Literal xml:lang="en">RulesConfirmitySchwartHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_939b3732_853b_4c93_b963_9a43a688accc</IRI>
+        <Literal>protect the environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_939b3732_853b_4c93_b963_9a43a688accc</IRI>
         <Literal xml:lang="en">ProtectTheEnvironmentValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_94a23c35_1321_4adb_8655_ba7e1fc04191</IRI>
+        <Literal>authority</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4236,9 +4718,19 @@ traditions</Literal>
         <Literal xml:lang="en">AuthorityValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_95f1b78e_fa42_4c93_aad9_4edee01c1da8</IRI>
+        <Literal>genuine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_95f1b78e_fa42_4c93_aad9_4edee01c1da8</IRI>
         <Literal xml:lang="en">GenuineValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_96fc39af_ecb5_4815_b430_42fbd1d483bf</IRI>
+        <Literal>independent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4246,9 +4738,19 @@ traditions</Literal>
         <Literal xml:lang="en">IndependentValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_9fd279ae_4886_4651_97c4_fba0f291b5fd</IRI>
+        <Literal>an exciting life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_9fd279ae_4886_4651_97c4_fba0f291b5fd</IRI>
         <Literal xml:lang="en">AnExcitingLifeValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_9ffe6ab6_7c1e_4ce2_8f01_8180768d1eeb</IRI>
+        <Literal>world at peace</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4256,9 +4758,19 @@ traditions</Literal>
         <Literal xml:lang="en">WorldAtPeaceValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a0145142_9872_4d1f_b7a7_0c091985ad17</IRI>
+        <Literal>wisdom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a0145142_9872_4d1f_b7a7_0c091985ad17</IRI>
         <Literal xml:lang="en">WisdomValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a1ca8d0b_b5ca_40af_8346_df696e82e3d2</IRI>
+        <Literal>hedonism</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4271,6 +4783,11 @@ traditions</Literal>
         <Literal xml:lang="en">HedonismSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a2a1cb0e_df30_4638_a160_5feeac30b593</IRI>
+        <Literal>achievement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a2a1cb0e_df30_4638_a160_5feeac30b593</IRI>
         <Literal xml:lang="en">Success according to social standards</Literal>
@@ -4281,9 +4798,19 @@ traditions</Literal>
         <Literal>AchievementSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a353e3e5_01b9_41b1_b17e_35bf9e7bda3d</IRI>
+        <Literal>avoiding indebtedness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a353e3e5_01b9_41b1_b17e_35bf9e7bda3d</IRI>
         <Literal xml:lang="en">AvoidingIndebtednessValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a42ea7b5_d52b_484e_ab11_54ef4f6f2fe0</IRI>
+        <Literal>helpful</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4291,9 +4818,19 @@ traditions</Literal>
         <Literal xml:lang="en">HelpfulValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a68ed73d_f25f_4852_8b31_529d0f6223c9</IRI>
+        <Literal>responsible</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a68ed73d_f25f_4852_8b31_529d0f6223c9</IRI>
         <Literal xml:lang="en">ResponsibleValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_a94a3364_9202_4cb6_8c70_31ea02baff66</IRI>
+        <Literal>mature understanding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4301,9 +4838,19 @@ traditions</Literal>
         <Literal xml:lang="en">MatureUnderstandingValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ada62214_d021_4ba5_8ceb_5ec63059719f</IRI>
+        <Literal>societal stability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ada62214_d021_4ba5_8ceb_5ec63059719f</IRI>
         <Literal xml:lang="en">SocietalStabilityValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ae1fd01e_bf46_4d49_8786_ae299d21232f</IRI>
+        <Literal>equality for all</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4311,9 +4858,19 @@ traditions</Literal>
         <Literal xml:lang="en">EqualityForAllValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_af152ada_514e_42a4_8f5c_034a1b7cf4f1</IRI>
+        <Literal>honor parents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_af152ada_514e_42a4_8f5c_034a1b7cf4f1</IRI>
         <Literal xml:lang="en">HonorParentsValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b2255c96_f120_4790_abab_2fcfaaed17df</IRI>
+        <Literal>conformity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4321,9 +4878,19 @@ traditions</Literal>
         <Literal xml:lang="en">ConformitySchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b41caf7c_9bd1_4465_9ba4_957d7816e813</IRI>
+        <Literal>courtesy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b41caf7c_9bd1_4465_9ba4_957d7816e813</IRI>
         <Literal xml:lang="en">CourtesyValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b592f747_a889_4901_b66c_91c863c29c3b</IRI>
+        <Literal>obedient</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4331,9 +4898,19 @@ traditions</Literal>
         <Literal xml:lang="en">ObedientValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b8ad906f_6f8b_417f_bba4_e63ed06c17a7</IRI>
+        <Literal>meet obligations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b8ad906f_6f8b_417f_bba4_e63ed06c17a7</IRI>
         <Literal xml:lang="en">MeetObligationsValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_b93b7410_ad5c_42d2_a866_18921fe1308a</IRI>
+        <Literal>privacy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4341,9 +4918,19 @@ traditions</Literal>
         <Literal xml:lang="en">PrivacyValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_bd6a182b_3e59_44f7_be95_1208a34efa7d</IRI>
+        <Literal>world beauty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_bd6a182b_3e59_44f7_be95_1208a34efa7d</IRI>
         <Literal xml:lang="en">WorldBeautyValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_bf949b3d_911d_4d19_a764_d9077510adc0</IRI>
+        <Literal>ambitious</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4351,9 +4938,19 @@ traditions</Literal>
         <Literal xml:lang="en">AmbitiousValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_c3aa9bdf_51e4_48ce_b195_480e98c18869</IRI>
+        <Literal>modest self-effacing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_c3aa9bdf_51e4_48ce_b195_480e98c18869</IRI>
         <Literal xml:lang="en">ModestSelf-effacingValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_c41bad08_e3fe_4a5a_98c0_dbd6b567cd3b</IRI>
+        <Literal>not sick</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4361,9 +4958,19 @@ traditions</Literal>
         <Literal xml:lang="en">NotSickValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_c441b858_750a_4839_9197_f58021bf4c38</IRI>
+        <Literal>respect tradition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_c441b858_750a_4839_9197_f58021bf4c38</IRI>
         <Literal xml:lang="en">RespectTraditionValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_c569e707_5e38_44e9_a304_c0e0e3e1b039</IRI>
+        <Literal>submitting to lifes circumstances</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4371,9 +4978,19 @@ traditions</Literal>
         <Literal xml:lang="en">SubmittingToLifesCircumstancesValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_c97f1aa2_c559_4b60_a20f_60f979bc4061</IRI>
+        <Literal>univeralism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_c97f1aa2_c559_4b60_a20f_60f979bc4061</IRI>
         <Literal xml:lang="en">UniversalismSchwartzHumanValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ce14a536_67b3_4424_856f_5db537c2d160</IRI>
+        <Literal>devout</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4381,9 +4998,19 @@ traditions</Literal>
         <Literal xml:lang="en">DevoutValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_cf1c9fb7_670f_40ca_a3ae_9f28631d4c90</IRI>
+        <Literal>family security</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_cf1c9fb7_670f_40ca_a3ae_9f28631d4c90</IRI>
         <Literal xml:lang="en">FamilySecurityValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d01f3314_197e_42b9_b0be_64667fdb2638</IRI>
+        <Literal>power-resources</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4396,9 +5023,19 @@ traditions</Literal>
         <Literal xml:lang="en">ResourcesPowerSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d0531024_4d06_4b7b_83cb_0d2ae5fc8148</IRI>
+        <Literal>self-discipline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d0531024_4d06_4b7b_83cb_0d2ae5fc8148</IRI>
         <Literal xml:lang="en">Self-disciplineValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d1483f85_0cfe_40be_b17d_16d404c9bee1</IRI>
+        <Literal>unity with nature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4406,9 +5043,19 @@ traditions</Literal>
         <Literal xml:lang="en">UnityWithNatureValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d2943863_9899_463d_9d39_26c39f9c5db8</IRI>
+        <Literal>capable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d2943863_9899_463d_9d39_26c39f9c5db8</IRI>
         <Literal xml:lang="en">CapableValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d360e329_2f62_4a0e_9d96_762c0f4ad1ad</IRI>
+        <Literal>clean</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4416,9 +5063,19 @@ traditions</Literal>
         <Literal xml:lang="en">CleanValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d46d3c08_3632_47af_a9ab_c3a794d5edf6</IRI>
+        <Literal>dependable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_d46d3c08_3632_47af_a9ab_c3a794d5edf6</IRI>
         <Literal xml:lang="en">DependableValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_dab881b1_0d30_447a_9226_b61de84fd581</IRI>
+        <Literal>tolerant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4426,9 +5083,19 @@ traditions</Literal>
         <Literal xml:lang="en">TolerantValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e2062f10_8611_4cdc_afa8_a549f7e12a70</IRI>
+        <Literal>achieving goals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e2062f10_8611_4cdc_afa8_a549f7e12a70</IRI>
         <Literal xml:lang="en">AchievingGoalValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e3623700_a705_4c98_90e7_9a2d809b2371</IRI>
+        <Literal>accepting my portion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4436,14 +5103,29 @@ traditions</Literal>
         <Literal xml:lang="en">AcceptingMyPortionValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e369d6c1_29e9_4a95_a1f2_dfc24544b663</IRI>
+        <Literal>reciprocating favors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e369d6c1_29e9_4a95_a1f2_dfc24544b663</IRI>
         <Literal xml:lang="en">ReciprocatingFavorsValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e3f1fa3f_752c_4bf6_9f3e_34e4adc58f24</IRI>
+        <Literal>seeking adventure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e3f1fa3f_752c_4bf6_9f3e_34e4adc58f24</IRI>
         <Literal xml:lang="en">SeekingAdventureValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e538b6e2_4843_4138_8dd8_5296fe71e581</IRI>
+        <Literal>benevolence-dependability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4456,14 +5138,29 @@ traditions</Literal>
         <Literal xml:lang="en">DependabilityBenevolanceSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e688e238_e08e_4d78_a2c5_0c78b0f5dd36</IRI>
+        <Literal>control over others</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_e688e238_e08e_4d78_a2c5_0c78b0f5dd36</IRI>
         <Literal xml:lang="en">ControlOverOthersValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_eb20a7de_b80d_4b08_9b69_383a4f5d14e3</IRI>
+        <Literal>curious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_eb20a7de_b80d_4b08_9b69_383a4f5d14e3</IRI>
         <Literal xml:lang="en">CuriousValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ebc0ebe2_f281_4653_92c8_3b4954e6294d</IRI>
+        <Literal>universalism-nature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_a8b2212d_3d34_4604_8f38_e781c804f031"/>
@@ -4476,14 +5173,29 @@ traditions</Literal>
         <Literal xml:lang="en">NatureUniversalismSchwartzHumanValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ec906cee_c9a6_43d7_8dc9_0762eb86946c</IRI>
+        <Literal>willing to pardon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ec906cee_c9a6_43d7_8dc9_0762eb86946c</IRI>
         <Literal xml:lang="en">WillingToPardonValueItem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_faa6a117_3e6d_4218_bb39_5217bb5d45d2</IRI>
+        <Literal>healthy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_faa6a117_3e6d_4218_bb39_5217bb5d45d2</IRI>
         <Literal xml:lang="en">HealthyValueItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLAnnotationProperty_3ef46530_0986_4399_a0a0_d149673820f4"/>
+        <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLClass_ffa16453_e26e_4f8d_a840_e2d2a5797a21</IRI>
+        <Literal>show respect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5005,24 +5717,8 @@ traditions</Literal>
         <IRI>http://www.semanticweb.org/matth/ontologies/2021/9/human_values#OWLObjectProperty_44bdb5e8_7e83_49f3_97e2_9f0743c4a63f</IRI>
         <Literal xml:lang="en">hasValueItem</Literal>
     </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_02ae1e4e_995e_4ef3_a8c5_ff7afbcb18d3</IRI>
-        <Literal xml:lang="en">hasExplicitLinkTo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_30c22d01_b832_4bd8_935a_651db314dfa0</IRI>
-        <Literal xml:lang="en">hasDirectValueLinkTo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_f7f952a2_38e4_49cc_87a3_36dcd79a1f14</IRI>
-        <Literal xml:lang="en">hasImpicitLinkTo</Literal>
-    </AnnotationAssertion>
 </Ontology>
 
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
